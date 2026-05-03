@@ -4,7 +4,7 @@ Advanced network and process monitoring tool for Windows. Features real-time TCP
 
 ![SW-NET Forensic UI](img.png)
 
-> ⚠️ **Note for international users:** Version 1.0.0 is currently available in the **Slovak (SK)** language only. Full English (EN) localization is already in development and will be released in the upcoming **v1.1.0**. Feel free to star the repository to stay updated!
+> ⚠️ **Note for international users:** Version 1.0.0 is currently available in the **Slovak (SK)** language only. Full English (EN) localization is now available in **v1.1.0** – see "What's New" below!
 
 ## ✨ Key Features (Slovak Version)
 
@@ -14,12 +14,38 @@ Advanced network and process monitoring tool for Windows. Features real-time TCP
 * **Certificate Validation:** Verify digital signatures and publishers of communicating apps.
 * **Reverse DNS & Fast Hash:** One-click reverse DNS lookup and MD5/SHA hash generation.
 
+## 🆕 What's New in v1.1.0
+
+**🇬🇧 English language support** – Full English localization is now available. Switch between Slovak (SK) and English (EN) anytime.
+
+**📊 Network connection charts** – See real-time RX/TX traffic for any connection + Top 5 processes by network usage.
+
+**🔍 One-click connection details** – WHOIS, RDAP, ping, traceroute, DNS, reverse DNS, and TLS certificates.
+
+**🧠 Process forensics** – View loaded libraries, SHA-256 hash, file metadata, and process tree for any running process.
+
+**🔎 Memory string scanner** – Search ASCII/Unicode text in process memory (hidden commands, URLs, etc.).
+
+**🛡️ Threat intelligence panels** – VirusTotal, Hybrid Analysis, GreyNoise, plus a dedicated alerts table.
+
+**🛡️ Anti-BSOD protection** – Risk assessment before killing a process. Dangerous system processes are blocked or require confirmation.
+
+**🔐 Encrypted API keys** – Your API keys are now stored encrypted, not as plain text.
+
+## 🔧 Improvements in v1.1.0
+
+- Better IP filtering (ignores private, CGNAT, multicast, and reserved ranges)
+- Clean application shutdown – no hanging processes
+- Update checker now reads actual software version (no false notifications)
+- API response caching – faster loading, fewer API calls
+- Better retry and timeout handling for cloud services
+
 ## 🔒 Security & Integrity (Checksums)
 
 To ensure you have the authentic build, please verify the SHA-256 hashes of the files you download:
 
 * **SW-NET-Forensic.zip:** `05d2672fb81c83dce2d47ed36af4a49a442eb21d0133cd593903248bab22c399`
-* **SW-NET-Forensic.exe:** `8ff6fbb2abadff759f94520613329b9de3f4148ba4f676160692627270c7622a`
+* **SW-NET-Forensic.exe:** `f19936ebc8c9d9414c346436eb2ed37480c403d18a198a969664c08279b0b3ec`
 
 > **🛡️ Note on VirusTotal / False Positives:** As a newly compiled, unsigned .NET freeware application, some minor heuristic scanners (1/67 on VT) may flag the executable as suspicious (`MSIL_Heur`). This is a known false positive. The software is 100% clean, verified by all major security vendors (Microsoft Defender, ESET, BitDefender, Avast), and passed behavioral analysis via Hybrid Analysis.
 
