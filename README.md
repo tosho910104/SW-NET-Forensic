@@ -4,7 +4,7 @@ Advanced network and process monitoring tool for Windows. Features real-time TCP
 
 ![SW-NET Forensic UI](img.png)
 
-> ⚠️ **Note for international users:** Version 1.0.0 is currently available in the **Slovak (SK)** language only. Full English (EN) localization is now available in **v1.1.0** – see "What's New" below!
+> ✅ **Note for international users:** Full **English (EN)** language support is now available in **v1.1.0** – switch between Slovak (SK) and English anytime. See "What's New" below!
 
 ## ✨ Key Features (Slovak Version)
 
