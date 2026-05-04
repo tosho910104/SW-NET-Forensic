@@ -52,3 +52,5 @@ To ensure you have the authentic build, please verify the SHA-256 hashes of the 
 ## 💬 Community & Support
 
 Have questions, bug reports, or feature requests? Use the **Issues** tab to start a discussion. If you'd like your nickname included in our future **Hall of Fame** inside the application, don't hesitate to reach out!
+
+⭐ If you find this tool useful, please consider giving it a star on GitHub!
