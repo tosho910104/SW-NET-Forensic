@@ -49,6 +49,10 @@ To ensure you have the authentic build, please verify the SHA-256 hashes of the 
 
 > **🛡️ Note on VirusTotal / False Positives:** As a newly compiled, unsigned .NET freeware application, some minor heuristic scanners (1/67 on VT) may flag the executable as suspicious (`MSIL_Heur`). This is a known false positive. The software is 100% clean, verified by all major security vendors (Microsoft Defender, ESET, BitDefender, Avast), and passed behavioral analysis via Hybrid Analysis.
 
+## ⚖️ License & EULA
+
+This software is Freeware. By using SW-NET Forensic, you agree to our [End User License Agreement (EULA)](https://www.digitalnypriestor.sk/software/sw-net/eula.html).
+
 ## 💬 Community & Support
 
 Have questions, bug reports, or feature requests? Use the **Issues** tab to start a discussion. If you'd like your nickname included in our future **Hall of Fame** inside the application, don't hesitate to reach out!
