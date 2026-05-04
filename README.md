@@ -44,7 +44,7 @@ Advanced network and process monitoring tool for Windows. Features real-time TCP
 
 To ensure you have the authentic build, please verify the SHA-256 hashes of the files you download:
 
-* **SW-NET-Forensic.zip:** `05d2672fb81c83dce2d47ed36af4a49a442eb21d0133cd593903248bab22c399`
+* **SW-NET-Forensic.zip:** `sha256:fdb50a28e1438aae135bdf0701da200ce9199ba2489b7fa868311317b5169d96`
 * **SW-NET-Forensic.exe:** `f19936ebc8c9d9414c346436eb2ed37480c403d18a198a969664c08279b0b3ec`
 
 > **🛡️ Note on VirusTotal / False Positives:** As a newly compiled, unsigned .NET freeware application, some minor heuristic scanners (1/67 on VT) may flag the executable as suspicious (`MSIL_Heur`). This is a known false positive. The software is 100% clean, verified by all major security vendors (Microsoft Defender, ESET, BitDefender, Avast), and passed behavioral analysis via Hybrid Analysis.
