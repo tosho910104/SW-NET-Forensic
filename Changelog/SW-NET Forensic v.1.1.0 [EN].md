@@ -8,7 +8,7 @@ All important improvements, new features, and fixes are described below.
 
 ### 🆕 New Features
 
-#### 🇬🇧 English Language
+#### 🇬🇧 English and Slovak Language
 - Added complete localization to English. Switch between SK and EN anytime while using the software.
 
 #### 🔗 Timeline of network connections
