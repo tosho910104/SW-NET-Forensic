@@ -58,3 +58,9 @@ This software is Freeware. By using SW-NET Forensic, you agree to our [End User 
 Have questions, bug reports, or feature requests? Use the **Issues** tab to start a discussion. If you'd like your nickname included in our future **Hall of Fame** inside the application, don't hesitate to reach out!
 
 ⭐ If you find this tool useful, please consider giving it a star on GitHub!
+
+<div align="center">
+  <a href="https://www.buymeacoffee.com/digitalnypriestor" target="_blank">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" width="200">
+  </a>
+</div>
