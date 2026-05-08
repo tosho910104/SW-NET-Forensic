@@ -1,6 +1,7 @@
 # SW-NET Forensic
 
 Advanced network and process monitoring tool for Windows. Features real-time TCP/UDP tracking, VirusTotal integration, and IP reputation checks.
+🔥 **Sneak Peek: Version 2.0.0 is coming soon! [Check out the massive new features and roadmap here](./Pre-release/)**
 
 ![SW-NET Forensic UI](img.png)
 
