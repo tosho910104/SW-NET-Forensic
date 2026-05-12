@@ -59,9 +59,10 @@ SW-NET Forensic may send selected IP addresses, hashes, or indicators to third-p
 
 ## 🛡️ False Positives / Antivirus Notice
 
-SW-NET Forensic is a newly compiled, unsigned .NET security and forensic utility. Because it inspects processes, network connections, command lines, memory-related metadata and other system-level information, some heuristic antivirus engines may flag the executable as suspicious.
+SW-NET Forensic is a newly compiled, unsigned .NET security and forensic utility. Because it inspects processes, network connections, command lines, memory-related metadata, and other system-level information, some heuristic antivirus engines may flag the executable as suspicious.
 
-This can happen with unsigned portable security tools, especially when they perform legitimate forensic or administrative actions that are also commonly monitored by security products.
+**Important Note Regarding Sandbox Reports (e.g., Hybrid Analysis):**
+To protect the intellectual property of this freeware, the application is compiled as a **.NET Single File** deployment with **code obfuscation**. Because the executable unpacks its runtime into memory and uses obfuscated strings/variables, automated sandboxes and heuristic engines often misinterpret this behavior as an evasive dropper (sometimes assigning generic tags like `#evasive` or `#rat`). This is a technical side-effect of the software's protection mechanisms, not malicious behavior.
 
 To verify the release, you can:
 
@@ -74,7 +75,7 @@ Known context:
 
 - The application does not contain malware.
 - External threat-intelligence lookups are used only for security analysis features.
-- Any antivirus detection should be reviewed together with file hashes, behavior and source of download.
+- Any antivirus detection should be reviewed together with file hashes, behavior, and source of download.
 
 ## ⚖️ License & EULA
 
