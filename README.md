@@ -2,7 +2,7 @@
 
 Advanced network and process monitoring tool for Windows. Designed for system administrators, forensic analysts, and power users. It features real-time TCP/UDP tracking, AI-driven anomaly scoring, global GeoIP mapping, and deep process inspection.
 
-![SW-NET Forensic UI](img.png)
+![SW-NET Forensic UI](main.png)
 
 > 🌍 **Native Bilingual Support:** Full **English (EN)** and **Slovak (SK)** localization included. Switch languages instantly within the app.
 
