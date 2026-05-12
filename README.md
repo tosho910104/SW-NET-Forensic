@@ -1,64 +1,41 @@
 # SW-NET Forensic
 
-Advanced network and process monitoring tool for Windows. Features real-time TCP/UDP tracking, VirusTotal integration, and IP reputation checks.
-🔥 **Sneak Peek: Version 2.0.0 is coming soon! [Check out the massive new features and roadmap here](./Pre-release/)**
+Advanced network and process monitoring tool for Windows. Designed for system administrators, forensic analysts, and power users. It features real-time TCP/UDP tracking, AI-driven anomaly scoring, global GeoIP mapping, and deep process inspection.
 
 ![SW-NET Forensic UI](img.png)
 
-> ✅ **Note for international users:** Full **English (EN)** language support is now available in **v1.1.0** – switch between Slovak (SK) and English anytime. See "What's New" below!
+> 🌍 **Native Bilingual Support:** Full **English (EN)** and **Slovak (SK)** localization included. Switch languages instantly within the app.
 
-## ✨ Key Features (Slovak Version)
+## ✨ Why Use SW-NET Forensic? (v2.0.0 Highlights)
 
-* **Real-time Monitoring:** Monitor active TCP/UDP connections and listening ports.
-* **Process Correlation:** Instantly link network activity to specific Processes (PID), Parent Processes, and file paths.
-* **IP Reputation:** Built-in AbuseIPDB check for rapid detection of suspicious remote IPs.
-* **Certificate Validation:** Verify digital signatures and publishers of communicating apps.
-* **Reverse DNS & Fast Hash:** One-click reverse DNS lookup and MD5/SHA hash generation.
-
-## 🆕 What's New in v1.1.0
-
-**🇬🇧 English language support** – Full English localization is now available. Switch between Slovak (SK) and English (EN) anytime.
-
-**📊 Network connection charts** – See real-time RX/TX traffic for any connection + Top 5 processes by network usage.
-
-**🔍 One-click connection details** – WHOIS, RDAP, ping, traceroute, DNS, reverse DNS, and TLS certificates.
-
-**🧠 Process forensics** – View loaded libraries, SHA-256 hash, file metadata, and process tree for any running process.
-
-**🔎 Memory string scanner** – Search ASCII/Unicode text in process memory (hidden commands, URLs, etc.).
-
-**🛡️ Threat intelligence panels** – VirusTotal, Hybrid Analysis, GreyNoise, plus a dedicated alerts table.
-
-**🛡️ Anti-BSOD protection** – Risk assessment before killing a process. Dangerous system processes are blocked or require confirmation.
-
-**🔐 Encrypted API keys** – Your API keys are now stored encrypted, not as plain text.
-
-## 🔧 Improvements in v1.1.0
-
-- Better IP filtering (ignores private, CGNAT, multicast, and reserved ranges)
-- Clean application shutdown – no hanging processes
-- Update checker now reads actual software version (no false notifications)
-- API response caching – faster loading, fewer API calls
-- Better retry and timeout handling for cloud services
+* **Interactive GeoIP Network Map:** Visualize your network traffic on a live global map to see exactly where your PC is communicating.
+* **Network Anomaly Scoring:** Instantly identify dangerous connections. The built-in scoring system evaluates and tags processes as normal, suspicious, or high-risk.
+* **Deep Process Forensics:** View loaded libraries, memory strings (ASCII/Unicode), file metadata, process privileges, and the full execution tree.
+* **Command-Line Inspector:** Uncover stealthy attacks by automatically highlighting suspicious arguments in cmd, PowerShell, and script executions.
+* **Eradicate Malware Chains (Kill with Parent):** Terminate a malicious process along with its entire parent tree in a single click.
+* **Global Threat Intelligence:** Instantly verify suspicious activity via built-in API integrations for **AlienVault OTX, VirusTotal, Hybrid Analysis,** and **AbuseIPDB**.
+* **Anti-BSOD Protection:** Built-in risk assessment blocks the termination of critical system processes or requires explicit confirmation, preventing accidental system crashes.
+* **Professional Reporting:** Export your complete forensic analysis to clean PDF or HTML reports for incident response hand-offs and archiving.
+* **Stealth Monitoring:** Minimize to the system tray, launch automatically on Windows startup, and receive native Windows notifications the second a risky connection is detected.
 
 ## 🔒 Security & Integrity (Checksums)
 
-To ensure you have the authentic build, please verify the SHA-256 hashes of the files you download:
+To ensure you have the authentic v2.0.0 build, please verify the SHA-256 hashes of the files you download:
 
-* **SW-NET-Forensic.zip:** `sha256:fdb50a28e1438aae135bdf0701da200ce9199ba2489b7fa868311317b5169d96`
-* **SW-NET-Forensic.exe:** `f19936ebc8c9d9414c346436eb2ed37480c403d18a198a969664c08279b0b3ec`
+* **SW-NET-Forensic.zip:** `f480b2af17b4de99579fc4823fd5c9960f844a85d3478c16d86a7d35fc86298c`
+* **SW-NET-Forensic.exe:** `222227f324dd8e5f2b1eaa29eec84929063230101ca138bef2e6ea579f3387a4`
 
-> **🛡️ Note on VirusTotal / False Positives:** As a newly compiled, unsigned .NET freeware application, some minor heuristic scanners (1/67 on VT) may flag the executable as suspicious (`MSIL_Heur`). This is a known false positive. The software is 100% clean, verified by all major security vendors (Microsoft Defender, ESET, BitDefender, Avast), and passed behavioral analysis via Hybrid Analysis.
+> **🛡️ Note on VirusTotal / False Positives:** As a newly compiled, unsigned .NET freeware application, some minor heuristic scanners may flag the executable as suspicious (`MSIL_Heur`). This is a known false positive. The software is 100% clean, verified by major security vendors (Microsoft Defender, ESET, BitDefender, Avast), and passed behavioral analysis via Hybrid Analysis.
 
 ## ⚖️ License & EULA
 
-This software is Freeware. By using SW-NET Forensic, you agree to our [End User License Agreement (EULA)](https://www.digitalnypriestor.sk/software/sw-net/eula.html).
+This software is Freeware. By using SW-NET Forensic, you agree to my [End User License Agreement (EULA)](https://www.digitalnypriestor.sk/software/sw-net/eula.html).
 
 ## 💬 Community & Support
 
-Have questions, bug reports, or feature requests? Use the **Issues** tab to start a discussion. If you'd like your nickname included in our future **Hall of Fame** inside the application, don't hesitate to reach out!
+Have questions, bug reports, or feature requests? Use the **Issues** tab to start a discussion. If you'd like your nickname included in the **Hall of Fame** inside the application, don't hesitate to reach out!
 
-⭐ If you find this tool useful, please consider giving it a star on GitHub!
+⭐ **If you find this tool useful, please consider giving it a star on GitHub!**
 
 <div align="center">
   <a href="https://www.buymeacoffee.com/digitalnypriestor" target="_blank">
