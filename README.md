@@ -2,6 +2,23 @@
 
 Advanced network and process monitoring tool for Windows. Designed for system administrators, forensic analysts, and power users. It features real-time TCP/UDP tracking, AI-driven anomaly scoring, global GeoIP mapping, and deep process inspection.
 
+## Quick Start
+
+1. Download the latest release.
+2. Extract `SW-NET-Forensic.zip`.
+3. Run `SW-NET-Forensic.exe` as Administrator.
+   * *Note: If a prompt appears asking to install the .NET Desktop Runtime, proceed with the installation. It is an official and secure framework directly from Microsoft required to run the application.*
+4. Optional: Add API keys for VirusTotal, AlienVault OTX, Hybrid Analysis, and AbuseIPDB.
+5. Verify SHA-256 hashes before running.
+
+## System Requirements
+
+- Windows 10 / Windows 11
+- 64-bit system recommended
+- Administrator privileges recommended for full process and network inspection
+- Internet connection required for external reputation checks
+- Optional API keys: VirusTotal, AlienVault OTX, Hybrid Analysis, AbuseIPDB
+
 ![SW-NET Forensic UI](main.png)
 
 > 🌍 **Native Bilingual Support:** Full **English (EN)** and **Slovak (SK)** localization included. Switch languages instantly within the app.
