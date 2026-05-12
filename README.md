@@ -35,6 +35,17 @@ Advanced network and process monitoring tool for Windows. Designed for system ad
 * **Professional Reporting:** Export your complete forensic analysis to clean PDF or HTML reports for incident response hand-offs and archiving.
 * **Stealth Monitoring:** Minimize to the system tray, launch automatically on Windows startup, and receive native Windows notifications the second a risky connection is detected.
 
+## Screenshots
+
+### Network Overview
+![Network](screenshots/network.png)
+
+### Threat Analysis
+![Threat Analysis](screenshots/threat-analysis.png)
+
+### Memory & Code Inspection
+![Memory and Code](screenshots/memory-and-code.png)
+
 ## 🔒 Security & Integrity (Checksums)
 
 To ensure you have the authentic v2.0.0 build, please verify the SHA-256 hashes of the files you download:
@@ -42,7 +53,28 @@ To ensure you have the authentic v2.0.0 build, please verify the SHA-256 hashes 
 * **SW-NET-Forensic.zip:** `f480b2af17b4de99579fc4823fd5c9960f844a85d3478c16d86a7d35fc86298c`
 * **SW-NET-Forensic.exe:** `222227f324dd8e5f2b1eaa29eec84929063230101ca138bef2e6ea579f3387a4`
 
-> **🛡️ Note on VirusTotal / False Positives:** As a newly compiled, unsigned .NET freeware application, some minor heuristic scanners may flag the executable as suspicious (`MSIL_Heur`). This is a known false positive. The software is 100% clean, verified by major security vendors (Microsoft Defender, ESET, BitDefender, Avast), and passed behavioral analysis via Hybrid Analysis.
+## Privacy & External API Usage
+
+SW-NET Forensic may send selected IP addresses, hashes, or indicators to third-party threat intelligence services only when the related lookup feature is used or configured. API keys are stored locally in the application settings.
+
+## 🛡️ False Positives / Antivirus Notice
+
+SW-NET Forensic is a newly compiled, unsigned .NET security and forensic utility. Because it inspects processes, network connections, command lines, memory-related metadata and other system-level information, some heuristic antivirus engines may flag the executable as suspicious.
+
+This can happen with unsigned portable security tools, especially when they perform legitimate forensic or administrative actions that are also commonly monitored by security products.
+
+To verify the release, you can:
+
+- Compare the published SHA-256 hashes with your downloaded files.
+- Scan the executable with your preferred antivirus solution.
+- Review the file in a sandbox or behavior-analysis environment if required.
+- Download SW-NET Forensic only from the official GitHub release page.
+
+Known context:
+
+- The application does not contain malware.
+- External threat-intelligence lookups are used only for security analysis features.
+- Any antivirus detection should be reviewed together with file hashes, behavior and source of download.
 
 ## ⚖️ License & EULA
 
