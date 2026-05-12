@@ -59,23 +59,36 @@ SW-NET Forensic may send selected IP addresses, hashes, or indicators to third-p
 
 ## 🛡️ False Positives / Antivirus Notice
 
-SW-NET Forensic is a newly compiled, unsigned .NET security and forensic utility. Because it inspects processes, network connections, command lines, memory-related metadata, and other system-level information, some heuristic antivirus engines may flag the executable as suspicious.
+SW-NET Forensic is a newly compiled, unsigned .NET security and forensic utility. Because it inspects processes, network connections, command-line arguments, memory-related metadata, loaded modules, hashes, and other system-level information, some heuristic antivirus engines may flag the executable as suspicious.
 
-**Important Note Regarding Sandbox Reports (e.g., Hybrid Analysis):**
-To protect the intellectual property of this freeware, the application is compiled as a **.NET Single File** deployment with **code obfuscation**. Because the executable unpacks its runtime into memory and uses obfuscated strings/variables, automated sandboxes and heuristic engines often misinterpret this behavior as an evasive dropper (sometimes assigning generic tags like `#evasive` or `#rat`). This is a technical side-effect of the software's protection mechanisms, not malicious behavior.
+### Important Note Regarding Sandbox Reports
+
+To protect the intellectual property of this freeware project, the release build is distributed as a .NET Single File deployment and may use code obfuscation.
+
+Because the executable contains bundled .NET components and uses protected/obfuscated code structures, some automated sandboxes and heuristic engines may interpret this behavior as suspicious. In some reports, this can result in generic tags such as `#evasive`, `#rat`, `#dropper`, or similar labels.
+
+This does not automatically mean that the application is malicious. It is a known side-effect of combining:
+
+- unsigned .NET executable,
+- single-file deployment,
+- code obfuscation,
+- process and network inspection features,
+- forensic and administrative functionality.
+
+### Recommended Verification Steps
 
 To verify the release, you can:
 
 - Compare the published SHA-256 hashes with your downloaded files.
 - Scan the executable with your preferred antivirus solution.
 - Review the file in a sandbox or behavior-analysis environment if required.
-- Download SW-NET Forensic only from the official GitHub release page.
+- Download SW-NET Forensic only from the official GitHub release page or the official website.
 
-Known context:
+### Known Context
 
-- The application does not contain malware.
+- SW-NET Forensic is designed as a legitimate forensic, diagnostic, and administrative utility.
 - External threat-intelligence lookups are used only for security analysis features.
-- Any antivirus detection should be reviewed together with file hashes, behavior, and source of download.
+- Any antivirus or sandbox detection should be reviewed together with the file hash, source of download, application behavior, and release notes.
 
 ## ⚖️ License & EULA
 
